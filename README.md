@@ -91,13 +91,6 @@ By the end of this course, you will be able to:
 - **Version Control**: Git
 - **Terminal/Command Line**: Built-in or Git Bash
 
-### Recommended Extensions (VS Code)
-- Live Server
-- Prettier - Code formatter
-- HTML CSS Support
-- JavaScript (ES6) code snippets
-- Auto Rename Tag
-
 ---
 
 ## Project Structure
@@ -135,54 +128,14 @@ apt-1040/
 ## 🔗 Resources
 
 ### Documentation
-- [MDN Web Docs](https://developer.mozilla.org/) - Comprehensive web development documentation
-- [W3Schools](https://www.w3schools.com/) - Tutorials and references
-- [Can I Use](https://caniuse.com/) - Browser compatibility checker
+
 
 ### Learning Platforms
-- [freeCodeCamp](https://www.freecodecamp.org/)
-- [Codecademy](https://www.codecademy.com/)
-- [Frontend Mentor](https://www.frontendmentor.io/) - Practice projects
+
 
 ### Tools
-- [CodePen](https://codepen.io/) - Online code editor and showcase
 - [GitHub](https://github.com/) - Version control and collaboration
 - [Figma](https://www.figma.com/) - Design mockups and prototypes
-
-### Accessibility
-- [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/)
-- [WebAIM](https://webaim.org/) - Accessibility guidelines and resources
-
----
-
-## 💡 Tips for Success
-
-1. **Practice Regularly** - Code every day, even if just for 30 minutes
-2. **Build Projects** - Apply what you learn to real-world projects
-3. **Use Browser DevTools** - Learn to inspect and debug your code
-4. **Ask Questions** - Utilize office hours, forums, and peer support
-5. **Stay Current** - Web technologies evolve rapidly; follow industry blogs
-6. **Version Control Everything** - Commit your work regularly to Git
-7. **Test Across Browsers** - Don't just develop in one browser
-8. **Validate Your Code** - Use W3C validators to check HTML/CSS
-
----
-
-## 🤝 Collaboration and Academic Integrity
-
-- Collaboration on labs is encouraged for learning purposes
-- Assignments must be completed individually unless specified
-- Cite any code snippets, libraries, or resources you use
-- Understand the code you submit - be prepared to explain it
-
----
-
-## 📧 Getting Help
-
-- **Office Hours**: [TBD - Check course syllabus]
-- **Course Forum**: [Link to discussion board]
-- **Email**: [Instructor email]
-- **Peer Study Groups**: [Information if available]
 
 ---
 
@@ -194,18 +147,7 @@ apt-1040/
 - **Final Project Due**: [Date]
 - **Final Exam/Presentation**: [Date]
 
-*Check your course syllabus for complete schedule and detailed assignment dates*
-
 ---
-
-## Beyond This Course
-
-This course prepares you for:
-- Advanced web development courses
-- Front-end development positions
-- Freelance web design projects
-- Full-stack development pathways
-- UI/UX design roles
 
 ### Next Steps
 - Explore JavaScript frameworks (React, Vue, Angular)
