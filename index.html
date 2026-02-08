@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>African Presidents Gallery</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 40px;
+            font-size: 2.5rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .presidents-table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        
+        .presidents-table th {
+            background: #3498db;
+            color: white;
+            padding: 20px;
+            text-align: left;
+            font-size: 1.2rem;
+        }
+        
+        .presidents-table td {
+            padding: 20px;
+            border-bottom: 1px solid #eee;
+            vertical-align: middle;
+        }
+        
+        .presidents-table tr:last-child td {
+            border-bottom: none;
+        }
+        
+        .presidents-table tr:hover {
+            background-color: #f8f9fa;
+        }
+        
+        .president-image {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #3498db;
+            transition: transform 0.3s ease;
+        }
+        
+        .president-image:hover {
+            transform: scale(1.1);
+        }
+        
+        .president-name {
+            font-weight: 600;
+            color: #2c3e50;
+            font-size: 1.1rem;
+        }
+        
+        .president-country {
+            color: #7f8c8d;
+            font-size: 0.9rem;
+            margin-top: 5px;
+        }
+        
+        .read-more {
+            display: inline-block;
+            padding: 8px 20px;
+            background: #3498db;
+            color: white;
+            text-decoration: none;
+            border-radius: 30px;
+            font-size: 0.9rem;
+            transition: all 0.3s ease;
+        }
+        
+        .read-more:hover {
+            background: #2980b9;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(52, 152, 219, 0.4);
+        }
+        
+        @media (max-width: 768px) {
+            .presidents-table {
+                display: block;
+                overflow-x: auto;
+            }
+            
+            .president-image {
+                width: 70px;
+                height: 70px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Inspiring African Leaders</h1>
+        <table class="presidents-table">
+            <thead>
+                <tr>
+                    <th>President</th>
+                    <th>Country</th>
+                    <th>Term</th>
+                    <th>Learn More</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="display: flex; align-items: center; gap: 15px;">
+                        <img src="images/tommy-fogelberg-NfiHFew7OpI-unsplash.jpg" 
+                             alt="Nelson Mandela" 
+                             class="president-image">
+                        <div>
+                            <div class="president-name">Nelson Mandela</div>
+                            <div class="president-country">South Africa</div>
+                        </div>
+                    </td>
+                    <td>South Africa</td>
+                    <td>1994 - 1999</td>
+                    <td>
+                        <a href="https://www.nelsonmandela.org/content/page/biography" 
+                           class="read-more" 
+                           target="_blank">Read Story</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="display: flex; align-items: center; gap: 15px;">
+                        <img src="images/kagame.webp" 
+                             alt="Paul Kagame" 
+                             class="president-image">
+                        <div>
+                            <div class="president-name">Paul Kagame</div>
+                            <div class="president-country">Rwanda</div>
+                        </div>
+                    </td>
+                    <td>Rwanda</td>
+                    <td>2000 - Present</td>
+                    <td>
+                        <a href="https://www.paulkagame.com/" 
+                           class="read-more" 
+                           target="_blank">Read Story</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="display: flex; align-items: center; gap: 15px;">
+                        <img src="images/Ellen.webp" 
+                             alt="Ellen Johnson Sirleaf" 
+                             class="president-image">
+                        <div>
+                            <div class="president-name">Ellen Johnson Sirleaf</div>
+                            <div class="president-country">Liberia</div>
+                        </div>
+                    </td>
+                    <td>Liberia</td>
+                    <td>2006 - 2018</td>
+                    <td>
+                        <a href="https://www.ellensirleaf.org/" 
+                           class="read-more" 
+                           target="_blank">Read Story</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="display: flex; align-items: center; gap: 15px;">
+                        <img src="images/Kenyatta.webp" 
+                             alt="Uhuru Kenyatta" 
+                             class="president-image">
+                        <div>
+                            <div class="president-name">Uhuru Kenyatta</div>
+                            <div class="president-country">Kenya</div>
+                        </div>
+                    </td>
+                    <td>Kenya</td>
+                    <td>2013 - 2022</td>
+                    <td>
+                        <a href="https://www.president.go.ke/" 
+                           class="read-more" 
+                           target="_blank">Read Story</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="display: flex; align-items: center; gap: 15px;">
+                        <img src="images/Cyril.webp" 
+                             alt="Cyril Ramaphosa" 
+                             class="president-image">
+                        <div>
+                            <div class="president-name">Cyril Ramaphosa</div>
+                            <div class="president-country">South Africa</div>
+                        </div>
+                    </td>
+                    <td>South Africa</td>
+                    <td>2018 - Present</td>
+                    <td>
+                        <a href="https://www.thepresidency.gov.za/president-cyril-ramaphosa" 
+                           class="read-more" 
+                           target="_blank">Read Story</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
