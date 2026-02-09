@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #0f2027, #203a43, #2c5364);
+    color: white;
+    padding: 20px;
+    margin: 0;
+}
+h1 {
+    color: #90ee90;
+    text-align: center;
+}
+h2 {
+    color: #ffeb3b;
+}
+p {
+    line-height: 1.6;
+}
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+}
