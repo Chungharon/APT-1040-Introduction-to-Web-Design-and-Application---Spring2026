@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USIU-Africa Course Registration</title>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <img src="image/usiu-logo.png" alt="USIU-Africa Logo" width="200">
+        <div class="contact-info">
+            <p>
+                <strong>United States International University-Africa</strong>
+            </p>
+            <p>
+                P.O. Box 14634-00800, Nairobi, Kenya
+            </p>
+            <p>
+                +254 730 116 000 | Admissions@usiu.ac.ke
+            </p>
+            <p>www.usiu.ac.ke</p>
+        </div>
+        <hr>
+    </header>
+
+    <!-- Course Registration Form -->
+    <main>
+        <h2>Course Registration Form</h2>
+        <p>Please fill in the details below to register for your courses.</p>
+
+        <form action="#" method="post">
+            
+            <!-- Personal Information Section -->
+            <fieldset>
+                <legend>Personal Information</legend>
+                
+                <label for="fullname">Full Name:</label><br>
+                <input type="text" id="fullname" name="fullname" required><br><br>
+
+                <label for="student-id">Student ID:</label><br>
+                <input type="text" id="student-id" name="student-id" required><br><br>
+
+                <label for="email">Email Address:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="phone">Phone Number:</label><br>
+                <input type="tel" id="phone" name="phone"><br><br>
+
+                <label for="dob">Date of Birth:</label><br>
+                <input type="date" id="dob" name="dob"><br><br>
+
+                <label>
+                    Gender:
+                </label><br>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">Other</label><br><br>
+            </fieldset>
+
+            <br>
+
+            <!-- Course Section -->
+            <fieldset>
+                <legend>Course Selection</legend>
+
+                <label for="program">
+                    Select Program:
+                </label>
+                <br>
+                <select id="program" name="program">
+                    <option value="">-- Choose a program --</option>
+                    <option value="cs">Computer Science</option>
+                    <option value="it">Information Technology</option>
+                    <option value="bus">Business Administration</option>
+                    <option value="eng">Engineering</option>
+                    <option value="comm">Communications</option>
+                </select>
+                <br><br>
+
+                <label>
+                    Select Courses:
+                </label><br>
+                <input type="checkbox" id="web" name="courses" value="Web Design">
+                <label for="web">APT 1040: Introduction to Web Design</label><br>
+                <input type="checkbox" id="prog" name="courses" value="Programming">
+                <label for="prog">APT 1030: Programming Fundamentals</label><br>
+                <input type="checkbox" id="db" name="courses" value="Databases">
+                <label for="db">APT 2020: Database Systems</label><br>
+                <input type="checkbox" id="net" name="courses" value="Networking">
+                <label for="net">APT 3010: Computer Networks</label><br><br>
+
+                <label for="semester">
+                    Semester:
+                </label>
+                <br>
+                <input type="text" id="semester" name="semester" placeholder="e.g., Fall 2025"><br><br>
+                <label for="year">
+                    Year of Study:
+                </label>
+                <br>
+                <input type="number" id="year" name="year" min="1" max="4"><br><br>
+            </fieldset>
+
+            <br>
+
+            <!-- Additional Information -->
+            <fieldset>
+                <legend>Additional Information</legend>
+
+                <label for="comments">
+                    Special Requests or Comments:
+                </label>
+                <br>
+                <textarea id="comments" name="comments" rows="5" cols="40" placeholder="Any special needs or comments...">
+
+                </textarea><br><br>
+                <label for="heard">
+                    How did you hear about us?
+                </label><br>
+                <select id="heard" name="heard">
+                    <option value="social">Social Media</option>
+                    <option value="website">USIU Website</option>
+                    <option value="friend">Friend/Family</option>
+                    <option value="email">Email Campaign</option>
+                    <option value="other">Other</option>
+                </select><br><br>
+            </fieldset>
+
+            <br>
+
+            <!-- Form Buttons -->
+            <button type="submit">Register</button>
+            <button type="reset">Clear Form</button>
+
+        </form>
+    </main>
+
+    <!-- Footer  -->
+    <footer>
+        <hr>
+        <p>&copy; 2025 United States International University-Africa. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
