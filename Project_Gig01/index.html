@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telcan Creatives | Design & Print</title>
+    <style>
+        :root {
+            --brand-orange: #F58220;
+            --brand-black: #1A1A1B;
+            --brand-white: #FFFFFF;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            background-color: var(--brand-black);
+            color: white;
+        }
+
+        header {
+            padding: 40px;
+            text-align: center;
+            border-bottom: 4px solid var(--brand-orange);
+        }
+
+        header h1 {
+            margin: 0;
+            color: var(--brand-white);
+        }
+
+        .hero {
+            padding: 100px 20px;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            color: #ccc;
+        }
+
+        .btn {
+            background: var(--brand-orange);
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            display: inline-block;
+            margin-top: 20px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        .btn:hover {
+            background: #e07018;
+        }
+
+        .services {
+            display: flex;
+            justify-content: space-around;
+            padding: 50px;
+            background: #222;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .service-card {
+            border: 1px solid #444;
+            padding: 20px;
+            width: 30%;
+            text-align: center;
+            min-width: 250px;
+        }
+
+        .service-card h3 {
+            color: var(--brand-orange);
+            margin-top: 0;
+        }
+
+        .service-card p {
+            color: #ccc;
+            line-height: 1.6;
+        }
+
+        footer {
+            padding: 20px;
+            text-align: center;
+            border-top: 1px solid #444;
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Telcan Creatives</h1>
+    </header>
+
+    <section class="hero">
+        <h1>Design & Print Services</h1>
+        <p>Professional creative solutions for your brand</p>
+        <a href="#services" class="btn">Explore Our Services</a>
+    </section>
+
+    <section class="services" id="services">
+        <div class="service-card">
+            <h3>Consultancy</h3>
+            <p>Visual strategy for brands</p>
+        </div>
+        <div class="service-card">
+            <h3>Design</h3>
+            <p>Creative design solutions tailored to your needs</p>
+        </div>
+        <div class="service-card">
+            <h3>Print</h3>
+            <p>High-quality printing services for all materials</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Telcan Creatives. All rights reserved.</p>
+    </footer>
+</body>
+</html>
