@@ -1,0 +1,74 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+model ArtsAcademyRegistration {
+  id          String   @id @default(cuid())
+  firstName   String
+  lastName    String
+  age         Int
+  country     String
+  email       String
+  phone       String
+  proficiency String
+  portfolio   String?
+  motivation  String
+  createdAt   DateTime @default(now())
+}
+
+model FestivalRegistration {
+  id              String   @id @default(cuid())
+  firstName       String
+  lastName        String
+  age             Int
+  country         String
+  address         String
+  email           String
+  phone           String
+  participantType String
+  festivals       String   // Comma-separated list
+  preferredDate   DateTime
+  motivation      String
+  createdAt       DateTime @default(now())
+}
+
+model CulinaryAcademyRegistration {
+  id             String   @id @default(cuid())
+  firstName      String
+  lastName      String
+  age            Int
+  country        String
+  email          String
+  phone          String
+  skillLevel     String
+  categories     String   // Comma-separated list
+  motivation     String
+  createdAt      DateTime @default(now())
+}
+
+model RitualRegistration {
+  id             String   @id @default(cuid())
+  spiritualName  String
+  clan           String
+  age            Int
+  country        String
+  site           String
+  role           String
+  email          String
+  phone          String
+  ceremonies     String   // Comma-separated list
+  createdAt      DateTime @default(now())
+}
+
+model NewsletterRegistration {
+  id        String   @id @default(cuid())
+  email     String   @unique
+  createdAt DateTime @default(now())
+}

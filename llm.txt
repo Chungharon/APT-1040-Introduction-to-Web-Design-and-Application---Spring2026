@@ -1,0 +1,37 @@
+# SEO for AI tooling
+
+# AI readiness
+     Steps to make the website AI ready:
+     1. Extract Architecture: prompt the AI to reverse engineer its own code and document the data schema into a master markdown file. 
+     2. Boundary Testing: force failing unit tests for all authentication, authorization, payment, and database path operations. 
+     3. Establish Telementary Data Collection: integrate error logging like sentry to catch silent failures in real time.
+     4. Refactor for Modularity: break monolithic files into single responsibility modules.
+     5. Sanitize Dependencies: audit every imported library for vulnerabilities and remove unused dependencies.
+     6. Implement a robust error handling strategy that catches and logs all errors, including silent failures.
+     7. Implement a comprehensive test suite that covers all edge cases and failure scenarios.
+     8. Document Deployment: create a containerized build script and deployment guide.
+     9. Threate Model: run an adversarial AI agent against codebase to find injection flaws before hackers do.
+     
+     
+# AI testing
+
+# AI debugging
+    1. Use Before any Complex debugging
+    "I have a complex logic bug i cannot find. Do NOT fix it yet.
+        instead, act as a brutally skeptical, slightly annoying product manager.
+        Ask me 5 increadibly basic, foundational questions about this feature. Focus on:
+            Object lifecycles
+            Variable scope
+            Transsient data handling
+            Cache invalidation assumptions
+            State management between components
+            
+            Make me defend my architectural decisions as if i am pitching this feature for the very first time.
+              Rules for you:
+                Ask exactly ONE question at a time.
+                Wait for my full answer before continuing.
+                Do not accept vague answers.
+                Push back until i am specific.
+                After all 5 questions, summarize the most likely root causes based on my answers alone."
+# AI security
+
